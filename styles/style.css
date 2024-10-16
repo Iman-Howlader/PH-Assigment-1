@@ -163,3 +163,20 @@ iframe {
     font-size: 16px;
     font-weight: 700;
 }
+
+.next-target-container {
+    display: block;
+}
+
+.next-target-item {
+    display: flex;
+    gap: 40px;
+    width: 998px;
+    height: 136px;
+    border-radius: 16px;
+    padding: 40px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+
+}
+
