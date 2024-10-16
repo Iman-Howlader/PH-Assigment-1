@@ -3,6 +3,9 @@
 :root {
     --primary-color: rgb(13, 19, 33)
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: "Azeret Mono", monospace;
@@ -43,6 +46,7 @@ main {
     color: var(--primary-color);
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 50px;
 }
 
 .primary-btn {
@@ -71,6 +75,7 @@ main {
     color: var(--primary-color);
     font-size: 32px;
     font-weight: 800;
+    margin-bottom: 24px;
 }
 
 .web-item {
@@ -182,6 +187,8 @@ iframe {
 input[type="text"] {
     width: 548px;
     height: 57px;
+    font-family: Azeret Mono;
+    padding:20px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -194,6 +201,7 @@ input[type="text"] {
 button[type=submit] {
     width: 120px;
     height: 57px;
+    font-family: Azeret Mono;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     color: rgb(13, 19, 33);
